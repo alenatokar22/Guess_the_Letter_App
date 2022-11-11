@@ -1,0 +1,57 @@
+.cell {
+  font-size: 17px;
+  background-color: goldenrod;
+  border: 1px solid green;
+  margin: 5px;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-weight: bold;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #4ae1a6;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #e3b63bf7;
+  margin-top: 20px;
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.score{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+  font-weight: bold;
+}
+
+.field {
+  display: flex;
+  justify-content: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
